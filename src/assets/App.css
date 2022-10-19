@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+:root {
+    --primary-color: #3b81dd;
+    --bg-color: #fff;
+    --gray-color: #242526;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--bg-color);
+}
+button {
+    outline: none;
+}
+p {
+    line-height: 1.4;
+}
